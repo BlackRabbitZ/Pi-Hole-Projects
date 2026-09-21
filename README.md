@@ -29,29 +29,31 @@ Der Schwerpunkt liegt auf selbst gehosteten DNS-Lösungen, rekursiver Namensaufl
 
 | Projekt | Beschreibung | Schwerpunkt |
 |---|---|---|
-| [**PiHole-Unbound-Docker**](https://github.com/BlackRabbitZ/PiHole-Unbound-Docker) | Pi-hole + Unbound als Docker-Stack | Docker • Pi-hole • Unbound • DNSSEC |
-| [**DietPi + Pi-hole + Unbound**](https://github.com/BlackRabbitZ/dietpi-pihole-unbound) | Installation und Konfiguration auf DietPi / Raspberry Pi | Raspberry Pi • DietPi • Hardening |
 | [**BlackRabbitZ DNS Blocklists**](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists) | Automatisch gepflegte DNS-Blocklisten | Ads • Tracking • Telemetrie • Security |
+| [**DietPi + Pi-hole + Unbound**](https://github.com/BlackRabbitZ/dietpi-pihole-unbound) | Installation und Konfiguration auf DietPi / Raspberry Pi | Raspberry Pi • DietPi • Hardening |
+| [**PiHole-Unbound-Docker**](https://github.com/BlackRabbitZ/PiHole-Unbound-Docker) | Pi-hole + Unbound als Docker-Stack | Docker • Pi-hole • Unbound • DNSSEC |
 
 ---
 
-## 🐳 PiHole-Unbound-Docker
+## 🚫 BlackRabbitZ DNS Blocklists
 
-**Pi-hole + Unbound als eigener Docker-DNS-Stack.**
+**DNS-Blocklisten für Pi-hole und kompatible DNS-Filter.**
 
-Das Projekt kombiniert Pi-hole als DNS-Filter mit Unbound als rekursivem Resolver.
+Die Listen dienen dazu, unerwünschte Domains bereits auf DNS-Ebene zu blockieren.
 
-### Enthalten
+### Kategorien
 
-- Pi-hole
-- Unbound
-- Docker Compose
-- DNSSEC
-- Healthchecks
-- Backups
-- DNS-Hardening
+- 📢 Werbung
+- 👁️ Tracking
+- 📊 Telemetrie
+- 📱 Mobile Tracking
+- 🎮 Gaming-Telemetrie
+- 🦠 Malware
+- 🎣 Phishing
+- 🔐 Security
+- 👨‍👩‍👧 Family
 
-➡️ **[Zum Repository](https://github.com/BlackRabbitZ/PiHole-Unbound-Docker)**
+➡️ **[Zum Repository](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)**
 
 ---
 
@@ -76,25 +78,23 @@ Das Projekt richtet sich an Nutzer, die ihren DNS-Stack ohne Docker direkt auf e
 
 ---
 
-## 🚫 BlackRabbitZ DNS Blocklists
+## 🐳 PiHole-Unbound-Docker
 
-**DNS-Blocklisten für Pi-hole und kompatible DNS-Filter.**
+**Pi-hole + Unbound als eigener Docker-DNS-Stack.**
 
-Die Listen dienen dazu, unerwünschte Domains bereits auf DNS-Ebene zu blockieren.
+Das Projekt kombiniert Pi-hole als DNS-Filter mit Unbound als rekursivem Resolver.
 
-### Kategorien
+### Enthalten
 
-- 📢 Werbung
-- 👁️ Tracking
-- 📊 Telemetrie
-- 📱 Mobile Tracking
-- 🎮 Gaming-Telemetrie
-- 🦠 Malware
-- 🎣 Phishing
-- 🔐 Security
-- 👨‍👩‍👧 Family
+- Pi-hole
+- Unbound
+- Docker Compose
+- DNSSEC
+- Healthchecks
+- Backups
+- DNS-Hardening
 
-➡️ **[Zum Repository](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)**
+➡️ **[Zum Repository](https://github.com/BlackRabbitZ/PiHole-Unbound-Docker)**
 
 ---
 
@@ -121,9 +121,9 @@ Root / Authoritative DNS
 
 | Du möchtest ... | Passendes Projekt |
 |---|---|
-| Pi-hole + Unbound mit Docker betreiben | **PiHole-Unbound-Docker** |
-| Pi-hole + Unbound direkt auf Raspberry Pi / DietPi betreiben | **DietPi + Pi-hole + Unbound** |
 | zusätzliche DNS-Blocklisten verwenden | **BlackRabbitZ DNS Blocklists** |
+| Pi-hole + Unbound direkt auf Raspberry Pi / DietPi betreiben | **DietPi + Pi-hole + Unbound** |
+| Pi-hole + Unbound mit Docker betreiben | **PiHole-Unbound-Docker** |
 | einen eigenen rekursiven Resolver verwenden | **Unbound-Projekte** |
 | Werbung, Tracking und Telemetrie DNS-basiert blockieren | **DNS Blocklists** |
 
